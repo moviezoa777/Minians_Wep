@@ -42,6 +42,9 @@ a, a:link {
 }
 
 /* =================== 01. 레이아웃 공통 클래스 정의 =================== */
+.fs-0{
+	font-size: 0;
+}
 .text-center{
 	text-align: center;
 }
@@ -100,7 +103,18 @@ a, a:link {
 .gap-3 {
 	gap: 3rem;
 }
-
+.py-1{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.py-2{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.py-3{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
 .border-top-thin {
 	border-top : 1px solid #000 
 }
@@ -188,5 +202,13 @@ main h2{
 aside{
 	background-color: var(--main-font-color);
 }
-
+.extra-links {
+	font-size:.75rem;
+}
+.extra-links a{
+	color: var(--light-font-color);
+}
+.extra-links a:hover{
+	color: var(--dark-font-color);
+}
 
